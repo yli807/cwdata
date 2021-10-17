@@ -7,7 +7,11 @@
 \format{
 A data frame with 143,825 rows and 5 variables:
 \describe{
-\item{entity}{country names, around the world}
+\item{entity}{country names}
+\item{code}{country code}
+\item{year}{year}
+\item{crop}{crop type}
+\item{tonnes_per_hectare}{yield}
 }
 }
 \source{
