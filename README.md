@@ -26,7 +26,7 @@ remotes::install_github("yli807/cwdata")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This package provides many great datasets used in ETC5523:
 
 ``` r
 library(cwdata)
