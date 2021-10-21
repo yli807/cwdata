@@ -4,6 +4,8 @@
 # cwdata
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/yli807/cwdata/workflows/R-CMD-check/badge.svg)](https://github.com/yli807/cwdata/actions)
 <!-- badges: end -->
 
 The goal of cwdata is to …
