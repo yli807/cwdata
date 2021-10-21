@@ -14,7 +14,7 @@
 #' x <- c(NA, NA, 10)
 #' stack_normalize(x)
 stack_normalise <- function(x){
-  x/sum(x)
+  x/sum(x,na.rm = TRUE)
 }
 #' @export
 #' @rdname stack_normalise
