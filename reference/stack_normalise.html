@@ -140,11 +140,11 @@
     <pre class="examples"><div class='input'>
 <span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>10</span>, <span class='fl'>30</span>, <span class='fl'>40</span><span class='op'>)</span>
 <span class='fu'>stack_normalize</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='error'>Error in stack_normalize(x): could not find function "stack_normalize"</span></div><div class='input'><span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>75</span>, <span class='fl'>0</span>, <span class='fl'>5</span>, <span class='fl'>20</span>, <span class='cn'>NA</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; [1] 0.125 0.375 0.500</div><div class='input'><span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>75</span>, <span class='fl'>0</span>, <span class='fl'>5</span>, <span class='fl'>20</span>, <span class='cn'>NA</span><span class='op'>)</span>
 <span class='fu'>stack_normalise</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
 </div><div class='output co'>#&gt; [1] 0.75 0.00 0.05 0.20   NA</div><div class='input'><span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='cn'>NA</span>, <span class='cn'>NA</span>, <span class='fl'>10</span><span class='op'>)</span>
 <span class='fu'>stack_normalize</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='error'>Error in stack_normalize(x): could not find function "stack_normalize"</span></div></pre>
+</div><div class='output co'>#&gt; [1] NA NA  1</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
